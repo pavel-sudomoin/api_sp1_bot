@@ -100,7 +100,8 @@ def send_message(message):
 def main():
     logger.info('Бот запущен')
     current_timestamp = int(time.time())
-
+    current_timestamp = 1594990262
+    print('запуск')
     while True:
         try:
             try:
